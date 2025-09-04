@@ -1,5 +1,5 @@
 # 🌱 Life Hub  
-<img width="500" height="500" alt="Black White Yellow Simple Initial Name Logo" src="https://github.com/user-attachments/assets/8c4f71a1-0b45-4f1d-b9dc-598002c6011e" />
+<img width="200" height="200" alt="Logo Life Hub" src="https://github.com/user-attachments/assets/8c4f71a1-0b45-4f1d-b9dc-598002c6011e" />
 
 ## 👥 Membros do grupo
 - Enzo Basani  
