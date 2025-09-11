@@ -1,12 +1,49 @@
-.body{
+body {
     background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700; 
+    color: #2C3E50;
 }
+
 body, p, span, li, a {
     font-family: "Open Sans", sans-serif;
     font-weight: 400; 
+    color: #2C3E50;
 }
 
+.cabecalho {
+    background-color: #58D68D;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000; }
+
+.logo img{
+    height: 100px;
+}
+
+.navegacao-principal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.navegacao-principal a {
+    text-decoration: none;
+    color: #1A364F;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.navegacao-principal a:hover {
+    color: #27AE60;
+}
