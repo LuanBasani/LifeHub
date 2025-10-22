@@ -20,3 +20,138 @@ body, p, span, li, a {
 .logo img{
     height: 100px;
 }
+
+
+/* ======== CABEÇALHO ======== */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e7d32;
+    padding: 15px 40px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.cabecalho img {
+    height: 60px;
+    transition: transform 0.3s;
+}
+
+.cabecalho img:hover {
+    transform: scale(1.05);
+}
+
+.botoes button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 18px;
+    margin-left: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+}
+
+.botoes button:hover {
+    background-color: #fff;
+    color: #2e7d32;
+}
+
+/* ======== SEÇÃO SOBRE ======== */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.Sobre {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.Sobre h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #1b5e20;
+    margin-bottom: 25px;
+}
+
+.Sobre img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.Sobre p {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* ======== MISSÃO ======== */
+.missao {
+    background-color: #e8f5e9;
+    border-left: 6px solid #43a047;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.missao h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.missao p {
+    font-size: 1.1rem;
+}
+
+/* ======== RODAPÉ ======== */
+footer {
+    background-color: #2e7d32;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    margin-top: 60px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin: 8px 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #c8e6c9;
+}
+
+.conscientizacao {
+    text-align: center;
+}
+
+.conscientizacao img {
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #e0f2f1;
+    font-size: 1rem;
+}
