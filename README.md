@@ -41,7 +41,7 @@ Promover a conscientização ambiental e reduzir o impacto da poluição atravé
 ---
 
 ## 📷 Prévia do Projeto
-*Em breve*
+<img width="200" height="200" alt="Logo Life Hub" src="assets/Wireframes/wireframe_HOME.jpg" />
 
 ---
 
